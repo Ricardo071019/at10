@@ -14,5 +14,8 @@ $comidas[] = 'Macarrão';
 //alteração d valores
 $comidas[1] = 'Pizza Calabreza';
 //exibe o array
-var_dump($comidas);
+foreach ($comidas as $comidas){
+echo '<h1>'. $comidas . '</h1>';
+
+};
 ?>
