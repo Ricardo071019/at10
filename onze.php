@@ -19,12 +19,14 @@ $carros = array (
 	)
 );
 ?>
+
 <?php
+
 echo $carros['punto']['opcionais'];
 
 foreach($carros as $modelo=>$carro)
 {
-	echo '<h1>' .$modelo . '</h1>'
+	echo '<h1>' .$modelo . '</h1>';
 	foreach($carros as $chave=>$detalhe)
 	{
 		echo '<b>' .$chave . '</b>=' .$detalhe . '<br>';
